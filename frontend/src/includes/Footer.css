@@ -1,0 +1,35 @@
+footer{ 
+    background-image: linear-gradient(to bottom,white,lightblue);
+}
+
+.footer-up{ 
+    display:  flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer-up ul{ 
+    list-style: none;
+}
+.footer-up li{ 
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+.head{ 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h5{ 
+    font-weight: bold  !important;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+footer hr{ 
+    margin: 0 4rem;
+} 

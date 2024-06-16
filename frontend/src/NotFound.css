@@ -1,0 +1,11 @@
+
+.nf{
+    min-height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fc{
+    font-size: 3rem;
+}

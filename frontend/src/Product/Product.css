@@ -1,0 +1,279 @@
+*{ 
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{ 
+    font-weight: bold !important; 
+}
+.cent{ 
+    /* navbar centre */
+    display: flex !important;
+    justify-content: center !important;
+}
+body{ 
+    
+    background-color: whitesmoke !important;
+}
+
+.cont{ 
+    z-index: 1;
+    display: flex;
+    background-color: #fff;
+    margin: 2rem;
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+    
+}
+
+hr{ 
+    color: gray;
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+/*  side image css */
+.med-image{ 
+    flex: 41%;
+    padding-top: 4rem;
+}
+.med-img1{ 
+    height:16rem;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+.im1{ 
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.im-sli{ 
+margin-top: 3rem;
+ display: flex;
+ justify-content: center;
+ height: 4rem;
+}
+
+.im1-sli,.im2-sli{ 
+    width: 80%;
+    height: 100%;
+}
+ .clk{ 
+ 
+  /* border: 0px solid white; */
+  margin: 0.5rem;
+  /* border:none; */
+
+} 
+
+.clk:hover{
+    border: 1px solid lightgreen;
+}
+
+/*  Price CSS */
+
+.price{ 
+    flex: 50%;
+    /* border: 1px solid black; */
+    /* flex-grow: 1; */
+    padding: 2rem;
+
+}
+.off{ 
+    border: 1px solid black !important;
+    border-radius: 2rem !important;
+    padding: 0.5rem !important;
+    width: 13rem !important;
+}
+
+.dsc{ 
+    background-color: #fff1f6;   
+}
+
+.small{ 
+    font-size: 0.7rem;
+}
+.cart{ 
+    height: 3rem;
+    width: 12rem;
+    font-size: 5rem;
+    transition: 1s;
+    font-weight: bolder !important;
+    border: 1px solid black !important;
+}
+.cart:hover{ 
+    background-color: lightblue;;
+    color: white !important ;
+}
+
+.card{ 
+    /* width: 90%; */
+    border: 1px solid lightblue !important;
+    border-radius: 1rem !important;
+}
+
+
+
+/*  DISCLAIMER */
+
+.disclaimer{ 
+    /* border: 1px solid black; */
+    z-index: 2;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.discl{ 
+    
+    background-color:lightblue;
+    /* opacity: 0.9; */
+}
+
+
+/* marketing */
+
+.marketing{
+    /* border: 1px solid black; */
+    background-color: #fff;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.marketing h4{text-align: center;}
+
+.marketing ul{display: flex;
+justify-content: space-evenly;
+list-style: none;
+}
+
+.marketing{ 
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.bold{ 
+ font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    flex: 0 0 25%; /* 25% width, don't grow or shrink */
+    padding-right: 2rem;
+  }
+  
+  .description {
+    flex: 0 0 75%; /* 75% width, don't grow or shrink */
+  }
+  
+  .sidebar ul,
+  .description ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  
+  /* Style for each individual link in the sidebar */
+  .sidebar ul li,
+  .description ul li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    /* text-decoration: none; */
+    color: #333;
+  }
+  
+  .sidebar ul li{
+    text-decoration: none !important;
+  }
+  /* Style for each individual link in the sidebar on hover */
+  .sidebar ul li:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .perks {
+    background-color: #f8f9fa; /* Lighter background color */
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .perks ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .perks ul li {
+    text-align: center;
+    font-size: 1.2rem;
+    color: lightblue; /* Blue color for perks */
+  }
+  
+  /* Additional styles for individual perks */
+  .perks ul li i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  
+  .perks {
+    background-color: #fff;
+    margin: 2rem;
+    padding: 1rem;
+  }
+  
+  .perks ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .perks ul li {
+    text-align: center;
+  }
+  
+  .perks ul li i {
+    font-size: 2rem;
+  }
+  
+  /* Additional styles for individual perks */
+
+  /* .fstLog{
+    display:inline;
+    
+  } */
+  .dg{
+    position: fixed;
+    top: 0.8rem;
+    left: 45%;
+    color: red;
+    z-index: 2;
+    background-color: white;
+    border-radius: 5px ;
+    display: none;
+
+  }

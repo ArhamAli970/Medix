@@ -1,0 +1,6 @@
+# Ignore backend environment file
+backend/.env
+
+# Add other patterns as needed
+frontend/node_modules/
+backend/node_modules/

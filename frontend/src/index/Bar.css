@@ -1,0 +1,50 @@
+.options {
+    margin: auto;
+    border: 1px solid #c0c0c0; /* Soft border */
+    padding: 1rem; /* Adequate padding */
+    background-color: #e3f2fd; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    display: flex; /* Flex layout for horizontal arrangement */
+    justify-content: space-between; /* Evenly spaced children */
+}
+
+.opt1 {
+    display: flex; /* Ensure elements are aligned horizontally */
+    flex-direction: column; /* Align content vertically within each option */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 1rem; /* Spacing within each option */
+    background-color: #f5f7fa; /* Light inner background */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    width: 30%; /* Ensure each option has consistent width */
+}
+
+.opt1:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+}
+
+.img31 {
+    width: 80%; /* Ensure the image doesn't exceed boundaries */
+    height: 80%; /* Maintain a consistent height */
+    overflow: hidden; /* Hide overflow content */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    border-radius: 5px; /* Rounded corners for the image container */
+}
+
+.img31 img {
+    width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container without distortion */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+h4 {
+    font-size: 1.2rem; /* Consistent font size */
+    color: #333; /* Darker color for contrast */
+    text-align: center; /* Center the text */
+    margin-top: 1rem; /* Spacing between image and text */
+}

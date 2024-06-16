@@ -1,0 +1,12 @@
+.mn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+*{
+    font-family: "Roboto Slab", serif;
+}
+::-webkit-scrollbar {
+    display: none; /* Hides scrollbar but allows scrolling */
+  }

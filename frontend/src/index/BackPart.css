@@ -1,0 +1,16 @@
+
+
+.bpt{
+    margin: 0.5rem;
+    height: 16rem;
+    background-image: url('https://logowik.com/content/uploads/images/dotted-world-map4757.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,89 @@
+
+.Paypage {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    gap: 20px; 
+}
+
+.cartItem, .payment {
+    border: 1px solid #e0e0e0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: #fff; 
+    margin: 10px 0; 
+    min-height: 310px;
+}
+
+.cartItem {
+    flex: 1 1 70%; 
+    max-width: 65%; 
+}
+
+.payment {
+    flex: 1 1 25%; 
+    max-width: 25%;
+}
+
+.prc {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f0f0f0; 
+    padding: 10px 0; 
+}
+
+.imgProd {
+    width: 50px; /* Adjusted for better visibility */
+    height: 50px; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between image and details */
+}
+
+
+.payBt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.items {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Space out item elements */
+    margin: 15px 0; /* More margin for separation */
+}
+
+.cm{
+    flex: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProdName{
+    max-width: 3.5em;
+    text-align: center;
+}
+
+.imgProd img {
+    width: 100%; /* Ensure image fills container */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover fit for no distortion */
+}
+
+.add, .rmv {
+    border: none;
+    background-color: white; /* Softer background color */
+    cursor: pointer; /* Cursor pointer for interactivity */
+    padding: 5px 10px; /* Padding for button size */
+    transition: background-color 0.2s; /* Smooth transition for feedback */
+
+
+}
+
+.add:hover, .rmv:hover {
+    background-color: #e0e0e0; /* Hover effect for visual feedback */
+}

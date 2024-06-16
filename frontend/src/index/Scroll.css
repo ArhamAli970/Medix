@@ -1,0 +1,65 @@
+.sc{
+    position: relative;
+    margin: 0.5rem;
+    height:27rem;
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.suc{
+    background-repeat: no-repeat;
+    background-size:100% 80%;
+    background-position: center;
+    background-color: #E1EBEE;
+    height: 100%;
+    border: 1px solid black;
+}
+
+
+
+.lf,.rh{
+    position: absolute;
+    top: 45%;
+    width: 2rem;
+    height: 3rem;
+    background-color: black;
+    border-radius:1rem ;
+    color: white;
+}
+.rh{
+right: 0;
+}
+
+.lf img,.rh img{
+    width: 100%;
+    height: 100%;
+}
+
+.offer {
+background-color: transparent;
+animation: offer 1s 0.5ms 1 linear;
+position: absolute;
+right: 20px;
+top: 45%;
+}
+.disc{
+    background-color:transparent;
+    animation: disc 1s 0.5ms 1 linear;
+    position: absolute;
+    left: 20px;
+    top: 20%;
+}
+
+
+@keyframes disc {
+    0%{left: 20px; top: -100px;}
+    50%{top: -10px;}
+    100%{top:20%;}
+}
+
+@keyframes offer {
+    0%{right:-300px; top: 50%px;}
+    50%{right: -10px;}
+    100%{right:20px;}
+}
+
